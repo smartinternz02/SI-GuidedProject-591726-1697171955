@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title >wood_texture generator</title>
+    <img src="data:image/png;base64, {{ image_base64 }}" alt="Generated Image">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" >
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/961c028791.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="back-container p-3">
+        <div class="dir">
+            <div class="m-3 inside">
+                <h3 class="text1">IMAGE GENERATOR</h3>
+            </div>
+            <div class="inside1 m-3">
+                <h4>Make Your Home a sweet home</h4>
+            </div>
+        </div>
+        <p class="text1">Creating visually appealing and harmonious interior designs is a crucial aspect of home
+            decoration. One way to enhance the aesthetic appeal is by incurporating textured images of wood samples. By
+            generating these textured Images, designers gain access to a vast array of wood patterns, grains, and
+            colors, lesing than to simulate various wood species and finishes. These images provide a valuable resource
+            for visus 'izing and experimenting with different design ideas, enabling homeowners to make informed
+            decisions about flooring, furniture, and other wooden elements in their homes. With the ability to preview
+            how differant wood textures harmonize with various decor styles and color schemes, designers can achieve
+            stunning and cohesive Interiors that reflect the homeowner's taste and elevate the overall ambiance of the
+            space.</p>
+        <div>
+            
+            <form action="/" method="POST">
+                <label class="label-image">No of images Generated:</label>
+                <input type="number" name="nz">
+                <button class="m-3 but" type="submit">Generate Image</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

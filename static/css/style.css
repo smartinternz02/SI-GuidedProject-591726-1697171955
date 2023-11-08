@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.back-container {
+    background-image: url('https://media.istockphoto.com/id/960995476/vector/polygonal-3d-yellow-background-seamless-pattern.jpg?s=170667a&w=0&k=20&c=GOzqxwqFCDKEaEmBJ36zl6DUmY7VwPTma3Yne0O5EYs=');
+    height: 200vh;
+    background-size: cover;
+    font-family: Roboto;
+}
+
+.inside {
+    background-color: #d34e22;
+    width: 25vw;
+    height: 10vh;
+    padding: 10px;
+    color: #f1f6a6;
+
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+.inside1 {
+    background-color: #d34e22;
+    width: 35vw;
+    height: 10vh;
+    padding: 10px;
+    color: #ced838;
+}
+
+.dir {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label-image {
+    color: white;
+    font-weight: bold;
+}
+
+.but {
+    background-color: #ce1742;
+    border: 0px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
