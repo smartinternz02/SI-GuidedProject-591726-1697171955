@@ -9,4 +9,5 @@ This project, titled "From Pixels to Planks: Deep Learning for Wood Texture Gene
  
 
 The integration of deep learning with wood texture generation offers numerous practical applications. Industries such as architecture, interior design, and digital entertainment can benefit from a readily available source of customizable and realistic wood textures. This project aims to contribute to the growing field of computer-generated imagery by providing a powerful tool for generating high-quality wood textures in a time-efficient manner.
+
 Project Demonstration link:https://drive.google.com/file/d/1Cu-LWDBkXlJzsXMdhh0Yo8TXBQmJzals/view?usp=sharing
